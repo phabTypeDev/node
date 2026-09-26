@@ -19,7 +19,6 @@ on:
       - src/cares_wrap.h
   push:
     branches:
-      - main
       - canary
       - v[0-9]+.x-staging
       - v[0-9]+.x

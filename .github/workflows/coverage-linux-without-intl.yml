@@ -16,7 +16,7 @@ on:
       - .nycrc
   push:
     branches:
-      - main
+      - abc
     paths:
       - lib/**/*.js
       - Makefile

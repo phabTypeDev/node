@@ -29,7 +29,7 @@ on:
       - '!.github/workflows/coverage-windows.yml'
   push:
     branches:
-      - main
+      - abc
     paths-ignore:
       - '**.md'
       - '**.nix'

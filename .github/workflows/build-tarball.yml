@@ -30,7 +30,6 @@ on:
       - '!.github/workflows/build-tarball.yml'
   push:
     branches:
-      - main
       - v[0-9]+.x-staging
       - v[0-9]+.x
     paths-ignore:
